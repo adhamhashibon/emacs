@@ -1,0 +1,12 @@
+/home/adham/dev/H2020-OpenModel/infrastructure/docker-compose.yml
+/home/adham/dev/H2020-OpenModel/infrastructure/#docker-compose.yml#
+/home/adham/dev/H2020-OpenModel/infrastructure/.env
+/home/adham/dev/H2020-OpenModel/infrastructure/#.env#
+/home/adham/dev/H2020-OpenModel/infrastructure/omi_keycloak/Dockerfile
+/home/adham/dev/H2020-OpenModel/infrastructure/omi_keycloak/#Dockerfile#
+/home/adham/dev/H2020-OpenModel/infrastructure/.env_tunnel
+/home/adham/dev/H2020-OpenModel/infrastructure/#.env_tunnel#
+/home/adham/dev/H2020-OpenModel/infrastructure/omi/main.py
+/home/adham/dev/H2020-OpenModel/infrastructure/omi/#main.py#
+/home/adham/dev/H2020-OpenModel/infrastructure/omi/Dockerfile
+/home/adham/dev/H2020-OpenModel/infrastructure/omi/#Dockerfile#
