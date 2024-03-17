@@ -48,7 +48,7 @@
 (setq inhibit-startup-message t)    ;; Hide the startup message
 ;;(load-theme 'material t)            ;; Load material theme
 (global-linum-mode t)               ;; Enable line numbers globally
-(setq linum-format "%d ")   ;; set format for line numbe
+(setq linum-format "%4d \u2502 ")   ;; set format for line numbe
 
 ;; User-Defined init.el ends here
 (custom-set-variables
