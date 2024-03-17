@@ -2,6 +2,7 @@
 
 ;; ===================================
 ;; MELPA Package Support
+;; https://melpa.org/#/dotenv-mode
 ;; ===================================
 ;; Enables basic packaging support
 (require 'package)
@@ -28,6 +29,8 @@
     py-autopep8                     ;; Run autopep8 on save
     blacken                         ;; Black formatting on save
     yaml-mode
+    dotenv-mode
+;;    markdown-mode
     )
   )
 
@@ -45,6 +48,7 @@
 (setq inhibit-startup-message t)    ;; Hide the startup message
 ;;(load-theme 'material t)            ;; Load material theme
 (global-linum-mode t)               ;; Enable line numbers globally
+(setq linum-format "%d ")   ;; set format for line numbe
 
 ;; User-Defined init.el ends here
 (custom-set-variables
@@ -85,5 +89,9 @@
 
   (require 'yaml-mode)
    (add-to-list 'auto-mode-alist '("\\.yml\\'" . yaml-mode))
+
+
+(add-to-list 'auto-mode-alist '("\\.env\\..*\\'" . dotenv-mode)) ;; for optionally supporting additional file extensions such as `.env.test' with this major mode
+
 
 ;; User-Defined init.el ends here
